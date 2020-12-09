@@ -273,3 +273,29 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     position: relative;
   }
   
+  .container1 {
+    position: relative;
+  }
+  
+  .text-block1 {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container2 {
+    position: relative;
+  }
+  
+  .text-block2 {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    background-color: rgb(49, 47, 47);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
