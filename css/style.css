@@ -4,6 +4,7 @@
   border-radius: 50%;
   overflow: hidden;
   margin-top: 10px;
+  
 }
 
 .button1 {
@@ -16,6 +17,15 @@
   display: inline-block;
   font-size: 16px;
   overflow: hidden;
-  /* float: right; */
+  float: right;
   margin-top: 10px;
 }
+
+.mySlides {
+  width: 500px;
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
