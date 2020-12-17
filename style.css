@@ -96,14 +96,12 @@ body {
 }
 
 .img-fluid{
-  position: absolute;
+  position: relative;
   width: 230px;
   height: 100px;
   left: 41%;
   margin-top: 7px;
   margin-left: 20px;
-  
-
 }
 
 .button1 {
@@ -122,5 +120,8 @@ body {
 }
 
 .moving-acorn {
-  width: 20%;
+  width: 15%;
+  margin-bottom: 24px;
+  left: 45%;
+  position: relative;
 }
