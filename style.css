@@ -41,7 +41,7 @@
 
 body {
   display: -webkit-box;
-  position: flex;
+  position: fixed;
   top: 75px;
   height: 100vh;
   width: 100%;
