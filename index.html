@@ -1,65 +1,60 @@
 <!DOCTYPE html>
-<html>
-<title>도토리숲(Dotory Soop)</title>
-<link rel="icon" sizes="196x196" href="/imgs/soop_icon.png">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/css/style1.css">
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <title>도토리숲(Dotory soop)</title>
+  <link rel="icon" sizes="196x196" href="imgs/soop_icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css'><link rel="stylesheet" href="./style.css">
 <div class="logo-image">
-  <a href = "https://hubnherb.com/">
-    <img src="/imgs/soop_icon.png" class="img-fluid">
-  </a>
-    <a href="https://bit.ly/3ftjmdd" class="button1">구독하기</a>
-  </div>
-<style>
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-</style>
+    <a href = "https://hubnherb.com/">
+      <img src="imgs/soop_icon.png" class="img-fluid">
+    </a>
+      <a href="https://bit.ly/3ftjmdd" class="button1">구독하기</a>
+    </div>
+
 <body>
 
-<h1> </h1>
+    
+<!-- partial:index.partial.html -->
+<div class="swiper-container">
+    
+    <!-- swiper slides -->
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url(imgs/main1.jpeg);">
+            <h3>도토리 숲에 가보신 적 있으신가요?</h3>
+        </div>
+        
+        <div class="swiper-slide" style="background-image: url(imgs/main2.jpeg);"> 
+            <h3>그냥 걷다보면 보통 <br>숲과 다를바가 없습니다.<br>하지만 조금만 자세히 보기 시작하면<br>내 발밑에 한두개 도토리부터<br>사방으로 떨어져있는 <br>도토리를 보게 되죠. </h3>
+        </div>
+        
+        <div class="swiper-slide" style="background-image: url(imgs/main3.jpg);">
+            <h3>신이나서 한참 줍다가 <br>잠시 허리를 펴 <br>하늘을 보면 <br>이 산을 이루고 있는 <br>도토리 숲을 발견합니다.</h3>
+        </div>
+        
+        <div class="swiper-slide" style="background-image: url(imgs/main4.jpeg);">
+            <h3> 우리 바쁜 일상을 살다보면<br> 소중한 순간들을 무심히 지나치게 됩니다. <br>바삐 산 정상을 향해 갈때 <br>밟고 지나가는도토리처럼요.</h3>
+        </div>
 
-<div class="w3-content w3-display-container" >
-  <div class="container1">
-  <img class="mySlides" src="/imgs/main1.jpeg" style="width:100%">
-    <div class="text-block1">
-      <h2><strong>도토리 숲에 가보신 적 있으신가요? </strong></h2>
+        <div class="swiper-slide" style="background-image: url(imgs/main5.jpeg);">
+            <h3> 그 소중한 도토리들을 <br> 이제 하나씩 모아보려고 합니다.<br><br> 부지런한 청설모가 되어 <br> 세대와 세대를 걸쳐 전달하고 싶은 <br> 작고 소소하지만 <br> 예쁜 도토리들을 배달해 드립니다.</h3>
+        </div>
+            
     </div>
-  </div>
-  <div class="container2">
-  <img class="mySlides" src="/imgs/main2.jpeg" style="width:100%">
-    <div class="text-block2">
-      <h3><strong>그냥 걷다보면 보통 <br>숲과 다를바가 없습니다.<br>하지만 조금만 자세히 보기 시작하면<br>내 발밑에 한두개 도토리부터<br>사방으로 떨어져있는 <br>도토리를 보게 되죠. </strong></h3>
-    </div>  
-  </div>
-  
-  <div class="container2">
-  <img class="mySlides" src="/imgs/main3.jpg" style="width:100%">
-    <div class="text-block2">
-    <h3><strong>신이나서 한참 줍다가 <br>잠시 허리를 펴 <br>하늘을 보면 <br>이 산을 이루고 있는 <br>도토리 숲을 발견합니다. </strong></h3>
-  </div>  
-  
+    <!-- !swiper slides -->
+    
+    <!-- next / prev arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <!-- !next / prev arrows -->
+    
+    <!-- pagination dots -->
+    <div class="swiper-pagination"></div>
+    <!-- !pagination dots -->
 </div>
-<div class="container2">
-  <img class="mySlides" src="/imgs/main4.jpeg" style="width:100%">
-  <div class="text-block2">
-    <h3><strong>우리 바쁜 일상을 살다보면<br> 소중한 순간들을 무심히 지나치게 됩니다. <br>바삐 산 정상을 향해 갈때 <br>밟고 지나가는도토리처럼요.</strong></h3>
-</div>
-
-
-
-  </div>
-  <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
-    <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
-    <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-  </div>
-</div>
-
-<script src = "/js/app.js">  </script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js'></script><script  src="./script.js"></script>
 
 </body>
-</html> 
+</html>
